@@ -18,3 +18,4 @@ After parsing the CSV, the program asks you to enter a Star Wars planet and then
 
 It's pretty simple, but the idea is to see how we can use this in more complex projects.
 
+PD: I used a CSV with Star Wars Planets, just to add more fun to the process :)
