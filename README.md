@@ -7,7 +7,14 @@ This project was created to learn how nodejs can execute Rust code through ffi a
 * csv
 * serde
 
+## Node dependencies:
 
-code uses serde and csv, so we can parse a csv file and then convert enums to json, and return it
-to NodeJS.
+* ffi-napi
+
+
+This little program uses serde and csv to parse a csv file and then convert structs to json, and return it to NodeJS.
+
+After parsing the CSV, the program asks you to enter a Star Wars planet and then returns information about that planet.
+
+It's pretty simple, but the idea is to see how we can use this in more complex projects.
 
