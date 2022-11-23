@@ -4,11 +4,8 @@ use std::collections::{HashMap};
 use std::fmt;
 use std::env::current_dir;
 use serde::{Serialize, Deserialize};
-use std::ffi::CString;
-use std::ffi::c_char;
-
+use std::ffi::{CString, c_char};
 use std::path::Path;
-// use serde_json::{Value};
 
 
 #[derive(Serialize, Deserialize, Debug)]
